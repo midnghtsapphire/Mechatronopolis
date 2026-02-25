@@ -1,0 +1,55 @@
+# Mechatronopolis
+
+> Mechatronopolis — robotics and mechatronics project hub
+
+**Organization:** Freedom Angel Corp / Audrey Evans  
+**Category:** Hardware  
+**Repository:** MIDNGHTSAPPHIRE/mechatronopolis  
+**Last Updated:** 2026-02-25
+
+---
+
+## Overview
+
+Mechatronopolis — robotics and mechatronics project hub
+
+This repository contains all project files, documentation, assets, and source code
+related to Mechatronopolis. All materials are proprietary and confidential.
+
+## Repository Structure
+
+```
+mechatronopolis/
+├── docs/          # Documentation, business plans, research, PDFs
+├── src/           # Source code, scripts, applications
+├── assets/        # Images, media, design files
+├── data/          # Spreadsheets, datasets, CSV files
+├── README.md      # This file
+├── CHANGELOG.md   # Version history
+└── LICENSE        # Proprietary license
+```
+
+## Files
+
+- `Suggestions/OZ_ANALYSIS_AND_SUGGESTIONS.md`
+- `Suggestions/Multi-LLM-Analysis/DeepSeek_Chat_Uncensored_analysis.md`
+- `Suggestions/Multi-LLM-Analysis/Claude_3.7_Sonnet_analysis.md`
+- `Suggestions/Multi-LLM-Analysis/Claude_3.5_Sonnet_Coding_Mode_analysis.md`
+- `Suggestions/Multi-LLM-Analysis/COMPARISON_REPORT.md`
+- `Suggestions/Multi-LLM-Analysis/DeepSeek_Coder_analysis.md`
+- `Suggestions/Multi-LLM-Analysis/Hermes_3_Llama_405B_Uncensored_analysis.md`
+- `Suggestions/Multi-LLM-Analysis/Gemini_2.0_Flash_analysis.md`
+- `Suggestions/Multi-LLM-Analysis/Mixtral_8x7B_Uncensored_analysis.md`
+- `Suggestions/Multi-LLM-Analysis/Llama_3.2_3B_Uncensored_analysis.md`
+- `Suggestions/Multi-LLM-Analysis/GPT-4_Turbo_analysis.md`
+- `Suggestions/Multi-LLM-Analysis/Qwen_2.5_72B_Uncensored_analysis.md`
+- `Suggestions/Multi-LLM-Analysis/Qwen_2.5_Coder_32B_analysis.md`
+
+## License
+
+All Rights Reserved. Copyright 2010-2026 Freedom Angel Corp / Audrey Evans.  
+See [LICENSE](LICENSE) for full terms.
+
+---
+
+*Freedom Angel Corp — Building the future, one project at a time.*
