@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "> Mechatronopolis — robotics and mechatronics project hub",
   "scripts": {
-    "test": "node -e \"console.log('No automated tests are defined yet; baseline test command is configured.')\"",
-    "build": "node -e \"console.log('No build artifacts are required for this repository; baseline build command is configured.')\""
+    "test": "node scripts/test-baseline.js",
+    "build": "node scripts/build-baseline.js"
   },
   "repository": {
     "type": "git",

@@ -92,7 +92,7 @@ npm test
 npm run build
 ```
 
-These baseline commands validate that tooling is configured for the repository and currently emit confirmation output.
+These baseline commands validate repository health by checking required documentation files and docs directory presence.
 
 | Feature | Status |
 |---------|--------|

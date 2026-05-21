@@ -17,6 +17,7 @@ All notable changes to this project will be documented in this file.
 - Updated `.github/pull_request_template.md` to include explicit no-tooling status text for repos without manifest/test/build setup
 - Added `package.json` manifest with baseline `npm test` and `npm run build` scripts
 - Updated PR template and README test section to use configured npm test/build commands
+- Added baseline Node scripts under `scripts/` so `npm test`/`npm run build` perform real repository health checks
 
 ## [1.0.0] — 2026-02-25
 
