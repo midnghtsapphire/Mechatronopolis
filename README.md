@@ -85,6 +85,13 @@ See [LICENSE](LICENSE) for full terms.
 
 ## Test
 
+Run baseline repository tooling commands:
+
+```bash
+npm test
+npm run build
+```
+
 | Feature | Status |
 |---------|--------|
 | Feature | ✅ Ready |

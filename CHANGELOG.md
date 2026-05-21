@@ -15,6 +15,8 @@ All notable changes to this project will be documented in this file.
   - SECURITY.md
 - Updated README.md with S2M/revvel-standards status and Website-in-Test (Vercel) reference
 - Updated `.github/pull_request_template.md` to include explicit no-tooling status text for repos without manifest/test/build setup
+- Added `package.json` manifest with baseline `npm test` and `npm run build` scripts
+- Updated PR template and README test section to use configured npm test/build commands
 
 ## [1.0.0] — 2026-02-25
 
