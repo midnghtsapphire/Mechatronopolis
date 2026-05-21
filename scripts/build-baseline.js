@@ -9,12 +9,27 @@ if (!fs.existsSync(docsDir)) {
   process.exit(1);
 }
 
-const entries = fs.readdirSync(docsDir, { withFileTypes: true });
-const hasContent = entries.some((entry) => entry.isDirectory() || entry.isFile());
+function countMarkdownFiles(dir) {
+  let count = 0;
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      count += countMarkdownFiles(fullPath);
+      continue;
+    }
+    if (entry.isFile() && entry.name.toLowerCase().endsWith(".md")) {
+      count += 1;
+    }
+  }
+  return count;
+}
 
-if (!hasContent) {
-  console.error("Baseline build failed. docs/ directory has no content.");
+const markdownCount = countMarkdownFiles(docsDir);
+
+if (markdownCount === 0) {
+  console.error("Baseline build failed. docs/ directory has no markdown documentation files.");
   process.exit(1);
 }
 
-console.log("Baseline build passed. docs/ directory is present and populated.");
+console.log(`Baseline build passed. docs/ contains ${markdownCount} markdown file(s).`);
