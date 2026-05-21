@@ -92,6 +92,8 @@ npm test
 npm run build
 ```
 
+These baseline commands validate that tooling is configured for the repository and currently emit confirmation output.
+
 | Feature | Status |
 |---------|--------|
 | Feature | ✅ Ready |

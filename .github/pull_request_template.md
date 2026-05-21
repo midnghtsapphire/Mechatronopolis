@@ -4,7 +4,7 @@ Describe what this PR changes and why.
 
 ## Checklist
 
-- [ ] I ran the configured repo tests/build commands (`npm test` and `npm run build`).
+- [ ] I ran the configured repo tests/build commands (`npm test` and `npm run build`) and confirmed expected baseline output.
 - [ ] I updated `README.md` and/or `CHANGELOG.md` when user-facing behavior or docs changed.
 - [ ] I confirmed no secrets or credentials are committed (no `.env`, tokens, keys, or private URLs).
 - [ ] I validated deployment steps are actionable and reference the correct platform/settings.
