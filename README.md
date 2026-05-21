@@ -37,7 +37,7 @@ Use this repository today as the canonical mechatronics project hub for:
 
 - Status: Not deployed yet
 - Target platform: Vercel
-- Deployment automation reference: see `/tmp/workspace/midnghtsapphire/Mechatronopolis/DEPLOYMENT_GUIDE.md`
+- Deployment automation reference: see [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)
 
 ## Repository Structure
 
