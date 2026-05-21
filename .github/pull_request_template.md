@@ -4,7 +4,7 @@ Describe what this PR changes and why.
 
 ## Checklist
 
-- [ ] I ran the configured repo tests/build commands (`npm test` and `npm run build`) and confirmed success output (`Baseline test passed...` and `Baseline build passed...`).
+- [ ] I ran the configured repo tests/build commands (`npm test` and `npm run build`) and confirmed output begins with `Baseline test passed.` and `Baseline build passed.`.
 - [ ] I updated `README.md` and/or `CHANGELOG.md` when user-facing behavior or docs changed.
 - [ ] I confirmed no secrets or credentials are committed (no `.env`, tokens, keys, or private URLs).
 - [ ] I validated deployment steps are actionable and reference the correct platform/settings.

@@ -16,7 +16,6 @@ function countMarkdownFiles(dir) {
     const fullPath = path.join(dir, entry.name);
     if (entry.isDirectory()) {
       count += countMarkdownFiles(fullPath);
-      continue;
     }
     if (entry.isFile() && entry.name.toLowerCase().endsWith(".md")) {
       count += 1;
