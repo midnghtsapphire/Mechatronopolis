@@ -12,9 +12,14 @@ const requiredFiles = [
   "SECURITY.md",
 ];
 
-const missing = requiredFiles.filter(
-  (file) => !fs.existsSync(path.join(root, file)),
-);
+const existenceChecks = requiredFiles.map((file) => ({
+  file,
+  exists: fs.existsSync(path.join(root, file)),
+}));
+
+const missing = existenceChecks
+  .filter((entry) => !entry.exists)
+  .map((entry) => entry.file);
 
 if (missing.length > 0) {
   console.error("Baseline test failed. Missing required files:");
