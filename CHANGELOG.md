@@ -8,6 +8,12 @@ All notable changes to this project will be documented in this file.
 - Initial repository setup
 - Imported all project files from Google Drive
 - Added README.md, CHANGELOG.md, and LICENSE
+- Added revvel-standards S2M documentation set:
+  - DEPLOYMENT_GUIDE.md
+  - GO_TO_MARKET.md
+  - BRAND_GUIDELINES.md
+  - SECURITY.md
+- Updated README.md with S2M/revvel-standards status and Website-in-Test (Vercel) reference
 
 ## [1.0.0] — 2026-02-25
 

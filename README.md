@@ -16,6 +16,29 @@ Mechatronopolis — robotics and mechatronics project hub
 This repository contains all project files, documentation, assets, and source code
 related to Mechatronopolis. All materials are proprietary and confidential.
 
+## S2M / Revvel-Standards Status
+
+This repository has been run through revvel-standards documentation for S2M completion.
+
+- README: present
+- CHANGELOG: present
+- DEPLOYMENT_GUIDE: present
+- GO_TO_MARKET: present
+- BRAND_GUIDELINES: present
+- SECURITY: present
+
+### Current Use
+
+Use this repository today as the canonical mechatronics project hub for:
+- product planning and technical analysis (`docs/`)
+- launch documentation and operating standards (root docs)
+
+### Website in Test (Vercel)
+
+- Status: Not deployed yet
+- Target platform: Vercel
+- Deployment automation reference: see `/tmp/workspace/midnghtsapphire/Mechatronopolis/DEPLOYMENT_GUIDE.md`
+
 ## Repository Structure
 
 ```
@@ -44,6 +67,10 @@ mechatronopolis/
 - `Suggestions/Multi-LLM-Analysis/GPT-4_Turbo_analysis.md`
 - `Suggestions/Multi-LLM-Analysis/Qwen_2.5_72B_Uncensored_analysis.md`
 - `Suggestions/Multi-LLM-Analysis/Qwen_2.5_Coder_32B_analysis.md`
+- `DEPLOYMENT_GUIDE.md`
+- `GO_TO_MARKET.md`
+- `BRAND_GUIDELINES.md`
+- `SECURITY.md`
 
 ## License
 
@@ -61,4 +88,3 @@ See [LICENSE](LICENSE) for full terms.
 | Feature | Status |
 |---------|--------|
 | Feature | ✅ Ready |
-
