@@ -1,0 +1,20 @@
+{
+  "name": "mechatronopolis",
+  "version": "1.0.0",
+  "description": "> Mechatronopolis — robotics and mechatronics project hub",
+  "scripts": {
+    "test": "node scripts/test-baseline.js",
+    "build": "node scripts/build-baseline.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midnghtsapphire/Mechatronopolis.git"
+  },
+  "keywords": [],
+  "author": "Audrey Evans (@midnghtsapphire)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/midnghtsapphire/Mechatronopolis/issues"
+  },
+  "homepage": "https://github.com/midnghtsapphire/Mechatronopolis#readme"
+}
