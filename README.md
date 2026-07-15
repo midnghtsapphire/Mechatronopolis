@@ -1,5 +1,12 @@
 # Mechatronopolis
 
+
+<!-- AUTO-PACKAGE-BADGES:START -->
+<!-- Auto-generated package badges -->
+
+![npm version](https://img.shields.io/npm/v/mechatronopolis?style=flat-square&logo=npm&color=blue) ![npm downloads](https://img.shields.io/npm/dw/mechatronopolis?style=flat-square&color=brightgreen) ![npm license](https://img.shields.io/npm/l/mechatronopolis?style=flat-square) [![Deployed](https://img.shields.io/badge/deployed-1.0.0-blue?style=flat-square)](https://www.npmjs.com/package/mechatronopolis)
+
+<!-- AUTO-PACKAGE-BADGES:END -->
 > Mechatronopolis — robotics and mechatronics project hub
 
 **Organization:** Freedom Angel Corp / Audrey Evans  
